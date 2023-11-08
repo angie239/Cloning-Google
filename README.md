@@ -1,2 +1,2 @@
 # Cloning-Google
-Clon de Google realiado con HTML y CSS
+Clon de Google realizado con HTML y CSS
