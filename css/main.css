@@ -76,7 +76,7 @@ nav .nav-right-section img{
 
 main{
     /* Agregar espacio entre header y main */
-    margin-top: 150px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -142,3 +142,149 @@ main .main-input .cam-icon{
     background-repeat: no-repeat;
     
 }
+
+main .submit-input{
+    margin-top: 20px;
+}       
+
+main .submit-input .first-submit-input-container{
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #34383a;
+    margin: 10px 5px;
+    height: 35px;
+    width: 150px;
+}       
+
+main .submit-input .second-submit-input-container {
+    margin-left: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #34383a;
+    margin: 10px 5px;
+    height: 35px;
+    width: 150px;
+}       
+
+/* ////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////// */
+/* FOOTER */
+
+footer .footer-input{
+    margin-top: 58px;
+    background: #f2f2f2;
+}
+
+footer .first-block{  
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #50555b;
+    background-color: #f1f1f1;
+}  
+
+footer .first-block .div-controller{
+    justify-content: space-evenly;
+    display: block;
+    flex-wrap: wrap;
+    padding: 0 45px;    
+}
+
+/* ///////////////////////////////////////// */
+
+footer .footer-input .second-block-up{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+}
+
+
+footer .footer-input .second-block-up .sobre-google{
+    color: #50555b;
+    display: block;
+    padding: 15px;
+    
+}
+.sobre-google:hover{
+    text-decoration: underline;
+    }
+/* Sirve para realizar un underline cuando el cursor pasa por encima de un texto
+    :hover{
+    text-decoration: underline;
+    } */
+
+footer .footer-input .second-block-up .publicidad{
+    color: #50555b;
+    display: block;
+    padding: 15px;
+    
+}
+.publicidad:hover{
+    text-decoration: underline;
+    }
+
+
+footer .footer-input .second-block-up .negocios{
+    color: #50555b;
+    display: block;
+    padding: 15px;
+    
+}
+.negocios:hover{
+    text-decoration: underline;
+    }
+
+
+footer .footer-input .second-block-up .search-function{
+    color: #50555b;
+    display: block;
+    padding: 15px;
+    /* white-space: nowrap; */
+}
+.search-function:hover{
+    text-decoration: underline;
+    }
+
+/* ////////////////////////////////////// */
+
+footer .footer-input .second-block-down{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+}
+
+
+footer .footer-input .second-block-down .privacidad{
+    color: #50555b;
+    display: block;
+    padding: 15px; 
+}
+.privacidad:hover{
+    text-decoration: underline;
+    }
+
+
+footer .footer-input .second-block-down .condiciones{
+    color: #50555b;
+    display: block;
+    padding: 15px; 
+}
+.condiciones:hover{
+    text-decoration: underline;
+    }
+
+
+footer .footer-input .second-block-down .preferencias{
+    color: #50555b;
+    display: block;
+    padding: 15px; 
+}
+.preferencias:hover{
+    text-decoration: underline;
+    }
