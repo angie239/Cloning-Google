@@ -175,7 +175,9 @@ main .submit-input .second-submit-input-container {
 /* FOOTER */
 
 footer .footer-input{
-    margin-top: 58px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
     background: #f2f2f2;
 }
 
