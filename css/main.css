@@ -69,6 +69,10 @@ nav .nav-right-section img{
     margin-right: 30px;
 }
 
+.Gmail:hover{
+    text-decoration: underline;
+}
+
 /* ////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////// */
@@ -145,20 +149,26 @@ main .main-input .cam-icon{
 
 main .submit-input{
     margin-top: 20px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    justify-content: center;
+
 }       
 
 main .submit-input .first-submit-input-container{
-    margin-right: 10px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #34383a;
     margin: 10px 5px;
     height: 35px;
-    width: 150px;
+    width: 150px;    
 }       
 
-main .submit-input .second-submit-input-container {
+/* main .submit-input .second-submit-input-container {
     margin-left: 10px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -167,7 +177,19 @@ main .submit-input .second-submit-input-container {
     margin: 10px 5px;
     height: 35px;
     width: 150px;
-}       
+}   */
+
+main .submit-input .second-button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #34383a;
+    margin: 10px 5px;
+    height: 35px;
+    width: 150px;
+    display: flex;
+
+}  
 
 /* ////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////
@@ -175,7 +197,9 @@ main .submit-input .second-submit-input-container {
 /* FOOTER */
 
 footer .footer-input{
-    margin-top: 58px;
+    position: absolute;
+    min-width: 100%;
+    bottom: 0px;
     background: #f2f2f2;
 }
 
